@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# https://github.com/aws-amplify/amplify-cli/issues/1032#issuecomment-472708396
+# 追加
+amplify/\#current-cloud-backend
+amplify/.config/local-*
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation
+dist/
+aws-exports.js
+awsconfiguration.json
+
